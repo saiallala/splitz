@@ -19,7 +19,7 @@ const ScrollToTop = () => {
         event.preventDefault();
         console.log("Escape has been pressed");
       }
-    }w
+    }
 
     document.body.addEventListener('keydown', escFunc, false);
 
