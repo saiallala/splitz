@@ -1,0 +1,35 @@
+.field {
+    width: 200px;
+    display: block;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: solid #aaa 0.5px;;
+}
+
+button {
+    width: 210px;
+    background-color: blue;
+    color: white;
+    height: 36px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.myform {
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.error {
+    color: red;
+    display: block;
+    font-weight: bold;
+}
+
+label, button {
+    display: block;
+    margin-top: 20px;
+    border-radius: 5px;
+}
