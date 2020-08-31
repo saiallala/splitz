@@ -5,6 +5,7 @@ import SplitzContainer from './components/Splitz/SplitzContainer';
 import Requests from './components/Requests/Requests'
 import {Route, Switch, BrowserRouter} from 'react-router-dom'
 import AddNewBill from './components/AddNewBill/AddNewBill';
+import Intrest from './components/Intrest/Intrest';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path ='/' exact component={SplitzContainer}/>
             <Route path ='/Requests' exact component={Requests}/>
             <Route path ='/addNewBill' exact component={AddNewBill}/>
+            <Route path ='/intrest' exact component={Intrest}/>
          </Switch>
         </Layout>
       </BrowserRouter>
