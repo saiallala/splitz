@@ -6,6 +6,8 @@ import Requests from './components/Requests/Requests'
 import {Route, Switch, BrowserRouter} from 'react-router-dom'
 import AddNewBill from './components/AddNewBill/AddNewBill';
 import Intrest from './components/Intrest/Intrest';
+import Intrests from './components/Intrests/Intrests';
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
             <Route path ='/Requests' exact component={Requests}/>
             <Route path ='/addNewBill' exact component={AddNewBill}/>
             <Route path ='/intrest' exact component={Intrest}/>
+            <Route path ='/intrests' exact component={Intrests}/>
          </Switch>
         </Layout>
       </BrowserRouter>
